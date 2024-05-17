@@ -4,7 +4,7 @@
   "name": "Twitter Timeline Eradicator",
   "description": "This extension removes timelines from twitter, to help you avoid mindless consumption.",
   "version": "2.0.1",
-  "host_permissions": ["https://x.com/*"]
+  "host_permissions": ["https://x.com/*"],
   "content_scripts": [
     {
       "matches": ["https://x.com/*"],
